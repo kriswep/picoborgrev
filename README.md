@@ -1,6 +1,19 @@
 picoborgrev
 =================
 
+*Warning* this is just a stub of the original picoborgrev modules found at https://github.com/cerekson/picoborgrev.  
+
+Useful for development on environments where you cannot install its dependencies i2c, like on desktops. But doesn't do anything really...
+
+##Installation
+
+```
+npm install https://github.com/kriswep/picoborgrev/tarball/stub --save-dev
+```
+---
+
+##Original picoborgrev readme
+
 A controller library for PiBorg's PicoBorg Reverse motor driver board designed for use with the Raspberry Pi.
 
 I highly recommend that you first read through the "Getting Started" page on PiBorg's site. You may also find it worthwhile to run their setup and installation script. That will enable the I2C bus on your Raspberry Pi, install i2c-tools and other needed utilities, as well as their Python version of the PicoBorg Reverse controller.
